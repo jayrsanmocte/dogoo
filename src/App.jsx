@@ -6,11 +6,11 @@ import LoginForm from './components/Login&Register/LoginForm';
 import RegisterForm from './components/Login&Register/RegisterForm';
 import Adopt from './components/Adopt/Adopt';
 import ApplicantsInfo from './components/Adopt/ApplicantsInfo';
-import Dogdata from './components/Dogdata/Dogdata';
 import About from './components/About/About';
+import Dogdata from './components/Dogdata/Dogdata';
 import SearchDog from './components/dogdata/SearchDog';
 
-
+ 
   const App = () => {
     const [selectedDogName, setSelectedDogName] = useState('');
 
